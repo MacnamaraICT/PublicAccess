@@ -11,6 +11,6 @@ if ($rebootFile -match "1") {
         Restart-Computer -Force
     }
 } else { 
-    #Exit 0 
-    Write-host "Reboot not required."
+    Exit 0 
+    
 }
